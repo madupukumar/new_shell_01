@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Ask user for first number
-echo "Enter first number: "
-read num1
+echo "Enter first number:10 "
+
 
 # Ask user for second number
-echo "Enter second number: "
-read num2
+echo "Enter second number: 20"
+
 
 # Perform addition
-sum=$((num1 + num2))
+sum=$((10 + 20))
 
 # Display result
 echo "Sum: $sum"
